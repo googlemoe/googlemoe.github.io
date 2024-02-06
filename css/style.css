@@ -1,0 +1,188 @@
+.error {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+#cookie-consent {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+
+
+.cookie-consent-content {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: 102;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.text-white {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.vid-div {
+    margin:20px 0px;
+    position: relative;
+}
+
+#vid-blocker {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+
+#video-frame {
+    width:100%;
+}
+
+@media only screen and (min-width: 1400px) {
+    #video-frame {
+        width: 80%;
+    }
+}
+#main-content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    /*border-style: solid;
+    border: 1px;*/
+}
+
+#rick-content {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    /*border-style: solid;
+    border: 1px;*/
+}
+
+#homepage-form {
+    font-family: monospace;
+    font-size: 24px;
+    width: 100%;
+    padding: 24px 0 24px 0;
+    margin: 10px 0 10px 0;
+}
+
+#link_title, #link_description, #link_image {
+    width: 100%;
+    font-size: 20px;
+}
+
+#make-it {
+    font-size: 30px;
+}
+
+/* button on home page*/
+#create_rickroll {
+    padding: 10px 24px;
+}
+
+.rick_roll_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.rick_roll_button:hover {
+    background-color: #0a900f;
+}
+
+
+
+h1{
+    font-size: 45px;
+    color: darkblue;
+    font-family: monospace, serif;
+}
+
+h1, h2, h3, p, a {
+    font-family: monospace;
+}
+
+ul > li {
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.homepage-text, p {
+    font-family: monospace;
+    font-size: 22px;
+}
+
+/* trick to make div as big as image */
+#rick-troll {
+    min-width: 1px;
+    min-height: 1px;
+    display: inline-block;
+}
+
+#rick-troll img:last-child {
+    display:none;
+}
+
+#rick-troll:hover img:last-child {
+   display: block;
+}
+
+#rick-troll:hover img:first-child {
+    display: none;  
+  }
+
+.ad-cta {
+    color:  red;
+    font-size: 24px;
+}
+
+#scroll-to-bottom {
+    position: sticky;
+    bottom: 30px;
+    left: 30px;
+    text-align: right;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
